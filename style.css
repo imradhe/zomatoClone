@@ -1,0 +1,310 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (min-width: 991px) {
+    .sortingBtns{
+        margin: 5rem  12rem;
+    }
+    .results{
+        margin: 2rem 4rem !important;
+    }
+    .results .row{
+        justify-content: center;
+    }
+    .results h3{
+        margin-left: 9rem !important;
+    }
+    .navbar{
+        margin: -2px 12rem 0 !important;
+    }
+    main .container{        
+        margin: -2px 12rem 0 !important;
+    }
+    .dropdown-menu{    
+        opacity: 1;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: rgb(28 28 28 / 15%) 0px 2px 8px;
+        overflow: hidden;
+        border-color: transparent !important;
+        padding: 0 !important;
+    }
+    .navbar-toggler{
+        border: 0 solid transparent !important;
+        outline: 0 !important;
+    }
+    
+  main .nav{
+    padding: 2px 12rem !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    border-color: rgba(223, 227, 231, .5) !important;
+    }
+    main .nav-link{
+        font-size: 22px;
+        color: black;
+        padding: 5px 1.5rem;
+    }
+
+}
+.navbar-toggler:focus{
+    outline: 0 !important;
+    box-shadow: transparent !important;
+    border-color: transparent !important;
+}
+.dropdown-item{
+    margin-top: 0 !important;
+}
+.dropdown-item:focus{
+    background-color: gray !important;
+}
+.dropdown-toggle[aria-expanded="false"]::after {
+    transform: translateY(6px) !important;
+    transform: rotate(0deg);
+    transition: transform .2s ease-in;
+    border: none !important;
+    content: url(https://icons.getbootstrap.com/assets/icons/chevron-down.svg);
+}
+.dropdown-toggle[aria-expanded="true"]::after {
+    display: inline-block;
+    transform: translateY(4px) rotate(180deg) !important;
+    content: url(https://icons.getbootstrap.com/assets/icons/chevron-down.svg);
+    border: none !important;
+    transition: transform .2s ease-in;
+}
+
+
+  .searchbox {
+    background-color:#fff;
+    vertical-align: middle !important;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    min-width: 46vw !important;
+    max-height: 54px !important;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232) !important;
+}
+  .searchbox [class*="col-"] {
+    padding: 0px !important;
+  }
+  .searchbox .col-md-5, .searchbox .col-md-3 { 
+    padding-top: 12px !important; 
+    padding-bottom: 12px !important;
+  }
+  .searchbox .form-control {
+    border-color: transparent !important;
+    border-radius: 0.8rem !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+  }
+  .searchbox .location{
+    border-radius: 0 !important;
+    border-right:solid 2px rgba(0,0,0,0.1) !important;
+    margin-left: -20px !important;
+}
+  .searchbox .form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  .form-select:disabled{
+      background-color: transparent !important;
+  }
+  .input-group-text{
+      background-color: transparent !important;
+      border: none !important;
+  }
+  .text-zomato{
+      color: #ED5A6B !important;
+  }
+
+  main .nav{
+      border-color: rgba(223, 227, 231, .5) !important;
+  }
+  main .nav-link{
+      color: black;
+  }
+  main .nav-link:hover,
+  main .nav-link:focus{
+      color: black;
+  }
+  main .nav .active{
+      color: #ED5A6B !important;
+      border-bottom: 2px solid #ED5A6B;
+  }
+.card{
+    max-width: 20rem;
+    margin: 10px 24px;
+}
+.card-img-top{
+    width: 120% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    transform: none !important;
+    border-radius: 12px !important;
+}
+.card-body{
+    padding-right: 0 !important;
+}
+.card-title{
+    text-transform: capitalize;
+}
+.inline-list{
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;    
+}
+.rating{
+    min-width: 7rem;
+}
+.reviews{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.categories{
+    font-size: 18px;
+    margin-bottom: 2px !important;
+    text-transform: capitalize;
+}
+.stretched-link{
+    opacity: 0;
+}
+.offer-card{
+    position: absolute;
+    bottom: 16px;
+    background-color: #2781e7;
+    padding: 0 10px; 
+    color: white;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-item{
+        font-size: 60%;
+    }
+    .results{
+        margin: 3rem 0;
+    }
+    .results .row{
+        justify-content: left;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav-item{
+        font-size: 14px;
+    }
+}
+
+.btn-sort{    
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-zomato{    
+    color: #fff;
+    background-color: #ED5A6B;
+    border-color: #ED5A6B;
+    padding: 5px 20px !important;
+}
+
+.modal-body{
+    padding: 0 !important;
+}
+
+.modal-body .container-fluid{
+    padding-left: 0 !important;
+}
+.modal .nav{
+    justify-content: left !important;
+}
+.modal .nav .nav-link{    
+    background: rgb(248, 248, 248);
+    padding-left: 1rem;
+    padding-right: 5rem;
+    height: 6rem;
+    display: flex;
+    text-align: left !important;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+.modal .nav .active{   
+    border-left: 5px solid #ED5A6B;
+    border-radius: 0 !important;
+    background-color: white !important;
+}
+.modal .form-check{
+    margin: 20px 0;
+}
+.modal .form-check label{
+    font-size: 20px !important;
+    cursor: pointer !important;
+    user-select: none !important; 
+}
+
+
+footer .bg-light {
+    background-color: #f8f9fa!important;
+}
+footer .container{
+ font-size: 1rem;
+ 
+}   
+footer .row{
+    margin-top: 20px;
+    font-size:1 rem;
+   
+}
+footer h5{
+   font-size: 1rem;
+   color: #454545 !important;
+} 
+footer .zomato{
+    color: #2E2E2E !important;
+}
+
+footer li a{
+    color: rgb(105, 105, 105) !important;
+    margin: 0.5rem 0px;
+}
+footer i{
+    padding: 5px 7px;
+    font-size: 12px !important;
+}
+.installImg{
+    margin-top: 20px;
+    margin-left: -10px !important;
+    height: 100px !important;
+}
+.sortingBtns{
+    background-color: white !important;
+    min-width: 100vh !important;
+    padding-top: 20px !important;
+    padding-bottom: 10px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: position 1s ease-in;
+    margin-top: 0 !important;
+}
