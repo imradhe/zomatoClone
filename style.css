@@ -308,3 +308,7 @@ footer i{
     transition: position 1s ease-in;
     margin-top: 0 !important;
 }
+
+.navbar .dropdown-menu{
+    z-index: 10001 !important;
+}
