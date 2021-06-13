@@ -212,7 +212,7 @@
     align-items: center;
     cursor: pointer;
     border-radius: 5px;
-    margin: 5px;
+    margin: 8px 5px;
 }
 .btn-zomato{    
     color: #fff;
@@ -299,16 +299,9 @@ footer i{
     min-width: 100vh !important;
     padding-top: 20px !important;
     padding-bottom: 10px;
+    display: inline;
+    z-index: 1000000000;
 }
-.sticky{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: position 1s ease-in;
-    margin-top: 0 !important;
-}
-
 .navbar .dropdown-menu{
     z-index: 10001 !important;
 }
