@@ -1,8 +1,8 @@
-$('.dropdown').on('show.bs.dropdown', function() {
+$('.navbar .dropdown').on('show.bs.dropdown', function() {
     $(this).find('.dropdown-menu').first().stop(true, true).slideDown(200);
   });
   // Add slideUp animation to Bootstrap dropdown when collapsing.
-  $('.dropdown').on('hide.bs.dropdown', function() {
+  $('.navbar .dropdown').on('hide.bs.dropdown', function() {
     $(this).find('.dropdown-menu').first().stop(true, true).slideUp(100);
   });
 $('.rating').starRating({ initialRating: 3.5})
@@ -127,11 +127,3 @@ let item6 = [
       });
 
 
-
-      $(window).scroll(function(){
-        if($(this).scrollTop() > 100){
-            $('main .sortingBtns').addClass('sticky')
-        } else{
-            $('main .sortingBtns').removeClass('sticky')
-        }
-    });
