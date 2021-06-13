@@ -126,6 +126,7 @@
 
   main .nav{
       border-color: rgba(223, 227, 231, .5) !important;
+      margin-bottom: 20px !important;
   }
   main .nav-link{
       color: black;
@@ -136,7 +137,7 @@
   }
   main .nav .active{
       color: #ED5A6B !important;
-      border-bottom: 2px solid #ED5A6B;
+      border-bottom: 2px solid #ED5A6B !important;
   }
 .card{
     max-width: 20rem;
